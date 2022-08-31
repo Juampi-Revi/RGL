@@ -1,0 +1,138 @@
+body{
+    background-color: #C2BDB8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.header-proyectos{
+    width: 100%;
+    background:none;
+}
+#navb{
+    position: relative;
+}
+.contenedor-general-proyectos{
+    display: flex;
+    width: 90%;
+    overflow:auto;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin: 3rem 10rem;
+    margin-top: 10rem;
+}
+.contenedor-proyecto{
+    margin-right: 3rem;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.proyecto2{
+    margin-bottom: 1rem;
+}
+.contenedor-informacion-proyecto{
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.contenedor-titulo-proyecto{
+    width: 30%;
+    max-width: 17.7rem;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.proyecto3{
+    width: 50%;
+}
+.nombre-proyecto{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 90%;
+    color:#3A3737;
+}
+.santaClara{
+    font-size: 24px;
+}
+.lote-proyecto{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 90%;
+    color: #E0FF5F;
+    margin-top:2rem;
+}
+.contenedor-detalles-proyecto{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.icono-flecha-proyectos{
+    width: 3.5rem;
+    margin-top:3rem;
+}
+.metros-cubiertos-proyecto{
+    border-top: 1px solid #3A3737;
+    border-bottom: 1px solid #3A3737;   
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.7179px;
+    line-height: 22px;
+    padding-right: 10rem;
+}
+.contenedor-metros-semicubiertos{
+    border-bottom: 1px solid #3A3737; 
+    display: flex;
+    justify-content: space-between;
+}
+.metros-semicubiertos{
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.7179px;
+    line-height: 22px;
+}
+.año-proyectos{
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.7179px;
+    line-height: 22px;
+}
+
+.contenedor-general-proyectos::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.contenedor-general-proyectos::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.contenedor-general-proyectos::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contenedor-general-proyectos::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.contenedor-general-proyectos::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.contenedor-general-proyectos::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+footer{
+    margin-top: 6rem;
+}
+.icono-wp{
+    margin-top: 88vh;
+    margin-left: 92vw;
+}

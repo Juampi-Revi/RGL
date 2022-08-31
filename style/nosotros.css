@@ -1,0 +1,211 @@
+.header-nosotros{
+    background-image: url('../assets/nosotros/fondoNosotros');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-nosotros-rgl img{
+    width: 100%;
+}
+.main-nosotros{
+    width: 100%;
+    background-color: #3A3737;
+}
+.parrafo-inicial-nosotros{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.parrafo-info-nosotros{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    width: 83%;
+    border-bottom: 0.459936px solid #FFFFFF;
+    padding: 5rem 0rem;
+    margin-top: 3rem;
+    ;
+}
+.texto-resaltado{
+    color:#E0FF5F;
+}
+.parrafos-nosotros-seccion2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:flex-end;
+    padding:
+}
+.contenedor-parrafos2-nosotros{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    padding: 5rem 0rem 8rem 0rem;
+}
+.parrafo-seccion2-nosotros{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: 0.0125em;
+    color: #FFFFFF;
+    max-width: 48rem;
+}
+.parafo1-seccion2-nosotros{
+    margin-right: 2rem;
+}
+.section-contenedor-fotos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 13rem;
+    padding-bottom: 10rem;
+    width: 83%;
+    border-bottom: 1px solid white;
+}
+.info-arquitecto{
+    margin-right: 3rem;
+}
+.imagen-arquitectos{
+    width: 31.7rem;
+    height:47.4rem;
+    background-color: #D9D9D9;
+}
+.contenedor-nombre-arquitecto{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 4rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.nombre-icono-arquitecto{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.contenedor-nombre-arquitecto p{
+    margin-left: 1rem;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color:white
+}
+.contenedor-tabla-servicios{
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    padding-top: 8rem;
+    padding-left: 13rem;
+    padding-bottom: 15rem;
+}
+.titulo-servicios{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 95%;
+    color: white;
+}
+.tabla-servicios{
+    padding-left: 47.5rem;
+    margin-top: 5rem;
+}
+.servicios-enumerados{
+    display: flex;
+    align-items: baseline;
+    max-width:66.7rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.servicios-enumerados p{
+    margin-bottom:0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 135%;
+}
+.numero-servicio{
+    color: #E0FF5F;
+    margin-right: 31rem;
+}
+.servicio-integral{
+    color:white;
+}
+.img-nosotros{
+    background-image:url('../assets/nosotros/imagenNosotros.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 50rem;
+}
+.img-nosotros img{
+    height: 100%;
+    margin-right: 10rem;
+}
+.main-contacto{
+    padding-top:10rem;
+    background-color: #3A3737;
+}
+.header-contacto{
+    background-color: #3A3737;
+}
+.img-nosotros-main{
+    background-image:url('../assets/contacto/fondoHeaderContacto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.img-nosotros-main img{
+    margin-right: 10rem;
+}
+.icono-wp{
+    position:fixed;
+    z-index: 1000;
+    margin-top: 90vh;
+    margin-left: 92vw;
+    width: 5rem;
+}
+.icono-wp img{
+    width: 7rem;
+}
+.contenedor-nombres-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: -12rem;
+}
+.nombre-profesion{
+    display: flex;
+}
+.nombre-header{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 90%;
+    color: #E0FF5F;
+}
+.profesion-header{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+}
