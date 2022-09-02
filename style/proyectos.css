@@ -19,7 +19,7 @@ body{
     overflow-x: scroll;
     scroll-behavior: smooth;
     margin: 3rem 10rem;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 .contenedor-proyecto{
     margin-right: 3rem;
@@ -130,7 +130,7 @@ body{
     border-radius: 10px;  
 }
 footer{
-    margin-top: 6rem;
+    margin-top: 12rem;
 }
 .icono-wp{
     margin-top: 88vh;
