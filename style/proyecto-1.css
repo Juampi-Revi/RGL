@@ -13,7 +13,7 @@ main{
     align-items: center;
 }
 .seccion-titulo-proyecto{
-    width: 78%;
+    width: 76%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -75,8 +75,17 @@ main{
     justify-content: center;
     align-items: center;
 }
+.carousel{
+    width: 90%;
+}
+.carousel-inner{
+    width: 100%;
+}
+.carousel-inner img{
+    width: 100%;
+}
 .contenedor-primeros-textos{
-    width: 78%;
+    width: 76%;
     display: flex;
     justify-content: space-between;
     margin-top:8rem;
@@ -91,7 +100,7 @@ main{
     line-height: 130%;
     letter-spacing: 0.01em;
     color: #1D1D1B;
-    width: 32%;
+    width: 35%;
 }
 .texto-resaltado{
     color: #E0FF5F;
@@ -102,15 +111,15 @@ main{
     font-size: 20px;
     line-height: 130%;
     color: #1D1D1B;
-    width: 30%;
+    width: 32%;
 }
 .texto-fichaTecnica{
-    width: 78%;
+    width: 76%;
     display: flex;
     justify-content: flex-end;
 }
 .contenedor-general-segundaSeccion-info{
-    width: 30%;
+    width: 32%;
 }
 .contenedor-segundo-texto{
     border-bottom: 0.1rem solid #1d1d1d;
@@ -169,7 +178,7 @@ main{
     margin-bottom: 0;
 }
 .iconos-redireccion-vermas{
-    width: 80%;
+    width: 76%;
     display: flex;
     justify-content: space-between;
     padding: 6rem 0rem;
@@ -221,4 +230,10 @@ main{
     line-height: 110%;
     color: #E0FF5F;
     margin-top: 4rem;
+}
+.icono-wp{
+    margin-top: 88vh;
+    margin-left: 92vw;
+    position:fixed;
+    z-index: 1000;
 }
