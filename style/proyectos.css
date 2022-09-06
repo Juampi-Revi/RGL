@@ -15,11 +15,9 @@ body{
 .contenedor-general-proyectos{
     display: flex;
     width: 90%;
-    overflow:auto;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
     margin: 3rem 10rem;
     margin-top: 10rem;
+    overflow-x: scroll;
 }
 .contenedor-proyecto{
     margin-right: 3rem;
@@ -30,6 +28,9 @@ body{
 .proyecto2{
     margin-bottom: 1rem;
 }
+.img-principal-proyecto{
+    width: 35vw;
+}
 .contenedor-informacion-proyecto{
     margin-top: 2rem;
     display: flex;
@@ -37,8 +38,7 @@ body{
     width: 100%;
 }
 .contenedor-titulo-proyecto{
-    width: 30%;
-    max-width: 17.7rem;
+    width: 35%;
     display: flex;
     flex-direction:column;
     justify-content:space-between;

@@ -90,7 +90,6 @@
     display: flex;
     align-items:center;
     justify-content:center;
-    
 }
 .contenedor-nombre-arquitecto p{
     margin-left: 1rem;
@@ -192,6 +191,7 @@
 }
 .nombre-profesion{
     display: flex;
+    margin-bottom:12rem ;
 }
 .nombre-header{
     font-style: normal;
