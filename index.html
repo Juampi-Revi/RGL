@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RGL Aquitectura</title>
-    <link rel="stylesheet" href="./style/home.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/home.css"/>
 </head>
 <body >
     <header class='contenedor-general-header '>
@@ -65,11 +66,11 @@
                         </a>
                     </div>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide contenedor-proyecto1-galeria" data-bs-ride="true">
+                <div id="vertical-carousel" class="carousel slide contenedor-proyecto1-galeria" data-bs-ride="true">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#vertical-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#vertical-carousel"data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#vertical-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -82,12 +83,12 @@
                             <img src="./assets/proyects/santaInes40/Esteban Echeverria - Santa Ines - Foto 3.png" class="imagenes-carrucel" alt="foto patio proyecto Santa Ines">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <button class="unclickable carousel-control-prev" type="button" data-bs-target="#vertical-carousel" data-bs-slide="prev">
+                        <span class="clickable carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <button class="unclickable carousel-control-prev" type="button" data-bs-target="#vertical-carousel"data-bs-slide="next">
+                        <span class="clickable carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -119,7 +120,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                    <div class='contenedor-proyecto1-info info-proyecto-2'>
+                    <div class='contenedor-proyecto2-info info-proyecto-2'>
                         <div class='contenedor-proyecto1-titulo '>
                             <h1 class='proyecto1-titulo'>San Vicente <br>El Pincipado</h1>
                             <h2 class='proyecto1-subtitulo'>Lote 37</h2>
@@ -193,27 +194,29 @@
                 <img src="./assets/home/logoSeccionNosotrosHome.png" alt="">
             </div>
             <div class="contenedor-info-nosotros-home">
-                <h2 class="titulo-nosotros-home">Somos un estudio de <span class="texto-resaltado-nosotros-home">arquitectura </span>abocado al diseño y construcción de proyectos.
-                </h2>
-                <div class="contenedor-textos-nosotros-home">
-                    <p class="parrafo-nosotros-home">
-                        Formado por tres arquitectos y amigos con una <span class="texto-resaltado-nosotros-home">fuerte vocación</span> por generar, a través de la arquitectura, espacialidades y sensaciones que formen lugares únicos para cada cliente.
-                    </p>
-                    <div class="nombres-arquitectos-nosotros-home">
-                        <div class="nombres-arquitect">
-                            <img src="./assets/icons/iconoNombres.png" alt="" class="icono-nosotros-home">
-                            <p class="nombre-nosotros-home">Ricardo Ramos</p>
+                <div class="contenedor-info-nosotros-home-dos">
+                    <h2 class="titulo-nosotros-home">Somos un estudio de <span class="texto-resaltado-nosotros-home">arquitectura </span>abocado al diseño y construcción de proyectos.
+                    </h2>
+                    <div class="contenedor-textos-nosotros-home">
+                        <p class="parrafo-nosotros-home">
+                            Formado por tres arquitectos y amigos con una <span class="texto-resaltado-nosotros-home">fuerte vocación</span> por generar, a través de la arquitectura, espacialidades y sensaciones que formen lugares únicos para cada cliente.
+                        </p>
+                        <div class="nombres-arquitectos-nosotros-home">
+                            <div class="nombres-arquitect">
+                                <img src="./assets/icons/iconoNombres.png" alt="" class="icono-nosotros-home">
+                                <p class="nombre-nosotros-home">Ricardo Ramos</p>
+                            </div>
+                            <div class="nombres-arquitect">
+                                <img src="./assets/icons/iconoNombres.png" alt="" class="icono-nosotros-home">
+                                <p class="nombre-nosotros-home">Gondar Hernan</p>
+                            </div>
+                            <div class="nombres-arquitect">
+                                <img src="./assets/icons/iconoNombres.png" alt="" class="icono-nosotros-home">
+                                <p class="nombre-nosotros-home">Luzzi Leandro</p>
+                            </div>
                         </div>
-                        <div class="nombres-arquitect">
-                            <img src="./assets/icons/iconoNombres.png" alt="" class="icono-nosotros-home">
-                            <p class="nombre-nosotros-home">Gondar Hernan</p>
-                        </div>
-                        <div class="nombres-arquitect">
-                            <img src="./assets/icons/iconoNombres.png" alt="" class="icono-nosotros-home">
-                            <p class="nombre-nosotros-home">Luzzi Leandro</p>
-                        </div>
+                        <a href="./page/nosotros.html" class="redireccionamiento-nosotros-home">CONOCER MAS</a>
                     </div>
-                    <a href="./page/nosotros.html" class="redireccionamiento-nosotros-home">CONOCER MAS</a>
                 </div>
             </div>
         </section>
@@ -235,7 +238,7 @@
         </section>
     </main>
     <footer >
-        <img src="./assets/home/logoBlancoFooter.png" alt="">
+        <img class="logo-footer" src="./assets/home/logoBlancoFooter.png" alt="">
         <section class="contenedor-info-footer">
             <div class="contenedor-info1-footer">
                 <p class="info-footer">RGL Arquitectos. Todos los <br> derechos reservados. 2022</p>
@@ -255,5 +258,9 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="./script/script.js"></script>
+    <script src="/path/to/cdn/jquery.min.js"></script>
+    <script src="./index.js"></script>
+
+
 </body>
 </html>

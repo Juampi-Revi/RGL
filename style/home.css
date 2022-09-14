@@ -4,11 +4,10 @@
     padding: 0;
 }
 html{
-    font-family: 'Libre Franklin', sans-serif;
     font-size: 62.5%;
 }
 body{
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Libre Franklin', sans-serif !important ;
 }
 .contenedor-general-header{
     background-image: url(../assets/home/fondoHeaderHome.png);
@@ -21,6 +20,9 @@ body{
     flex-direction: column;
     align-items:center;
 }
+.contenedor-logo-rgl img {
+    width: 25rem;
+}
 #navb{
     width: 100%;
     position: fixed;
@@ -29,6 +31,7 @@ body{
     justify-content: center;
     transition: .5s;
     padding-top: 3rem;
+    border-bottom: 0.1rem solid white;
 }
 #navbb{
     width: 100%;
@@ -39,13 +42,13 @@ body{
     justify-content: center;
     transition: .5s;
     padding-top: 3rem;
+    border-bottom: 0.1rem solid white;
 }
 .contenedor-navbar{
     display: flex;
     justify-content: space-between;
     width: 85%;
     padding-bottom:1.5rem;
-    border-bottom: 0.1rem solid white;
 }
 .ul-navbar{
     display: flex;
@@ -83,6 +86,9 @@ body{
     padding: 5rem 10rem;
     z-index: 7;
 }
+.contenedor-titulo-saludo-header img {
+    width: 45vw;
+}
 .contenedor-seccion-proyectos-home{
     width: 100%;
     display: flex;
@@ -94,16 +100,24 @@ body{
 .contenedor-proyecto1-home{
     display: flex;
     justify-content: space-between;
-    align-items:center;
     width: 80%;
     margin: 12rem 0rem;
     border-bottom: 1px solid white;
+    padding-bottom: 10rem;
 }
 .contenedor-proyecto1-info{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    width: 30%;
+    justify-content:space-between;
+    width: 35%;
+    padding-right: 10rem;
+}
+.contenedor-proyecto2-info{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 35%;
+    padding-left: 10rem;
 }
 .proyecto1-titulo{
     font-style: normal;
@@ -122,6 +136,7 @@ body{
 }
 .proyecto1-info{
     margin-top:13rem;
+    margin-bottom: 0rem;
 }
 .proyecto1-info1{
     font-style: normal;
@@ -129,8 +144,7 @@ body{
     font-size: 14px;
     line-height: 180%;
     color: white;
-    width: 80%;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0rem;
 }
 .proyecto1info{
     border-top: 1px solid white;
@@ -140,23 +154,22 @@ body{
     justify-content:space-between;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    width:80%;
+    font-size: 14px;
 }
 .proyecto1-info3{
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 180%;
     color: white;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0rem;
 }
 .contenedor-redireccionamiento-proyectos{
     margin-top: 7rem;
     display: flex;
     justify-content:space-between;
     align-items:center;
-    width: 80%;
-    margin-bottom: 10rem;
+    
 }
 .redireccionamiento-proyectos{
     font-style: normal;
@@ -177,7 +190,6 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
-    margin-bottom: 10rem;
 }
 .imagenes-carrucel{
     width: 100%;
@@ -186,16 +198,15 @@ body{
 .contenedor-proyecto2-home{
     display: flex;
     justify-content: space-between;
-    align-items:center;
     width: 80%;
+    margin: 12rem 0rem;
     border-bottom: 1px solid white;
+    padding-bottom: 10rem;
 }
 .contenedor-miniatura-proyectos-home{
     display: flex;
     justify-content: space-around;
-    align-items:center;
     width: 90%;
-    margin-top: 10rem;
 }
 .miniatura-proyecto{
     margin-right: 2rem;
@@ -209,14 +220,14 @@ body{
 .proyecto-miniatura-titulo{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 110%;
     color:white;
 }
 .proyecto-miniatura-subtitulo{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 110%;
     color: #E0FF5F;
 }
@@ -226,7 +237,7 @@ body{
 .proyecto1-miniatura-info1{
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 180%;
     color: white;
     border-bottom: 1px solid white;
@@ -268,12 +279,24 @@ body{
     background-size: cover;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 5rem;
+}
+.contenedor-imagen-nosotros-home{
+    width: 50%;
+}
+.contenedor-imagen-nosotros-home img{
+    width: 100%;
 }
 .contenedor-info-nosotros-home{
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
+    width: 70%;
+    padding-left: 10rem;
+}
+.contenedor-info-nosotros-home-dos{
+    width: 100%;
 }
 .titulo-nosotros-home{
     font-style: normal;
@@ -281,20 +304,20 @@ body{
     font-size: 38px;
     line-height: 125%;
     color: white;
-    width: 45%;
+    width: 80%;
 }
 .texto-resaltado-nosotros-home{
     color: #E0FF5F;
 }
 .contenedor-textos-nosotros-home{
     margin-top:7.5rem;
-    width: 32%;
+    width: 60%;
     margin-left:11rem;
 }
 .parrafo-nosotros-home{
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 130%;
     color: white;
 }
@@ -322,12 +345,15 @@ body{
 .redireccionamiento-nosotros-home{
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 22px;
     color: #E0FF5F;
 }
 .redireccionamiento-nosotros-home:hover{
     color: white;
+}
+.icono-nosotros-home{
+    width: 1.3rem;
 }
 .contenedor-contacto-home{
     width: 100%;
@@ -373,7 +399,7 @@ body{
     font-size: 16px;
     line-height: 26px;
     color: white;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #C2BDB8;
     margin-bottom: 2rem;
     outline: none;
 }
@@ -387,7 +413,7 @@ body{
     font-size: 16px;
     line-height: 26px;
     color: white;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #C2BDB8;
     margin-top: 15rem;
     outline: none;
 }
@@ -415,32 +441,30 @@ footer{
     align-items:center;
     justify-content: space-around
 }
+.logo-footer {
+    width: 25rem;
+}
 .contenedor-info-footer{
     display: flex;
-    align-items:center;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 .contenedor-info1-footer{
-    width: 25%;
+    width: 30%;
 }
 .info-footer{
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 90%;
+    line-height: 130%;
     color: white;
     padding-bottom: 1rem;
 }
 .iconos-footer{
     text-decoration: underline;
-    margin-left: 1rem;
 }
 .contenedor-iconos-footer{
     display: flex;
-}
-.contenedor-iconos-footer a img{
-    margin-left: 1rem;
 }
 .icono-wp{
     position:fixed;
@@ -452,3 +476,99 @@ footer{
 .icono-wp img{
     width: 7rem;
 }
+
+.carousel {
+      overflow:hidden;
+    }
+    .carousel-inner, .carousel, .carousel-item, .carousel-container {
+      background-position:center center;
+
+      width: 95%;
+
+      background-size: cover;
+
+    }
+
+    .carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
+
+      transform: translate3d(0,-100%,0);
+
+      -webkit-transform: translate3d(0,-100%,0);
+
+      -moz-transform: translate3d(0,-100%,0);
+
+      -ms-transform: translate3d(0,-100%,0);
+
+      -o-transform: translate3d(0,-100%,0);
+
+    }
+
+     
+
+    .carousel-item-next:not(.carousel-item-start), .active.carousel-item-end {
+
+      transform: translate3d(0,100%,0);
+
+      -webkit-transform: translate3d(0,100%,0);
+
+      -ms-transform: translate3d(0,100%,0);
+      -moz-transform: translate3d(0,100%,0);
+      -o-transform: translate3d(0,100%,0);
+    }
+
+    .carousel-indicators {
+
+      top:0;
+
+      margin:auto;
+
+      height:20px;
+
+      right:10px;
+
+      left:auto;
+
+      display:block;
+
+    }
+
+    .carousel-indicators [data-bs-target] {
+
+      background:none;
+
+      border:2px solid white;
+
+      border-radius:12px;
+
+      width:12px;
+
+      height:12px;
+
+      margin-bottom:5px;
+      margin-left: 10rem;
+      display: flex;
+
+    }
+
+    .carousel-indicators li.active {
+      background:#E0FF5F;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+      width:4rem;
+      height:4rem;
+      position:fixed;
+      top:95%;
+      left:50%;
+      transform: translate(-50%,-50%) rotate(90deg);
+      z-index:-1;
+    }
+    .carousel-control-prev-icon {
+      top:5%;
+    }
+    .unclickable {
+      pointer-events:none;
+    }
+    .clickable {
+      pointer-events:all;
+    }
+    

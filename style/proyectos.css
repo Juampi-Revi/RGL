@@ -16,8 +16,8 @@ body{
     display: flex;
     width: 90%;
     margin: 3rem 10rem;
-    margin-top: 10rem;
-    overflow-x: scroll;
+    margin-top: 8rem;
+    overflow-x: auto;
 }
 .contenedor-proyecto{
     margin-right: 3rem;
@@ -76,7 +76,7 @@ body{
 }
 .metros-cubiertos-proyecto{
     border-top: 1px solid #3A3737;
-    border-bottom: 1px solid #3A3737;   
+    border-bottom: 1px solid #3A3737;
     margin: 0;
     font-style: normal;
     font-weight: 300;
@@ -85,7 +85,7 @@ body{
     padding-right: 10rem;
 }
 .contenedor-metros-semicubiertos{
-    border-bottom: 1px solid #3A3737; 
+    border-bottom: 1px solid #3A3737;
     display: flex;
     justify-content: space-between;
 }
@@ -104,35 +104,13 @@ body{
     line-height: 22px;
 }
 
-.contenedor-general-proyectos::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-
-.contenedor-general-proyectos::-webkit-scrollbar:vertical {
-    width:10px;
-}
-
-.contenedor-general-proyectos::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
-    display: none;
-} 
-
-.contenedor-general-proyectos::-webkit-scrollbar:horizontal {
-    height: 10px;
-}
-
-.contenedor-general-proyectos::-webkit-scrollbar-thumb {
-    background-color: #797979;
-    border-radius: 20px;
-    border: 2px solid #f1f2f3;
-}
-
-.contenedor-general-proyectos::-webkit-scrollbar-track {
-    border-radius: 10px;  
-}
 footer{
     margin-top: 6rem;
 }
 .icono-wp{
     margin-top: 88vh;
     margin-left: 92vw;
+}
+.contenedor-general-proyectos::-webkit-scrollbar{
+    width: 0;
 }
