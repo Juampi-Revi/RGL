@@ -3,7 +3,7 @@ body{
 }
 .imagen-header-proyecto{
     width: 100%;
-    margin-top:10rem;
+    margin-top:8.3rem;
     max-height: 62.1rem;
 }
 main{
@@ -50,6 +50,9 @@ main{
 .icono-nombre{
     display: flex;
     align-items: center;
+}
+.icono-nombre img{
+    width: 1.5rem;
 }
 .icono-nombre p{
     font-style: normal;
@@ -100,7 +103,7 @@ main{
     line-height: 130%;
     letter-spacing: 0.01em;
     color: #1D1D1B;
-    width: 35%;
+    width: 40%;
 }
 .texto-resaltado{
     color: #E0FF5F;
@@ -111,7 +114,7 @@ main{
     font-size: 20px;
     line-height: 130%;
     color: #1D1D1B;
-    width: 32%;
+    width: 40%;
 }
 .texto-fichaTecnica{
     width: 76%;
@@ -119,7 +122,7 @@ main{
     justify-content: flex-end;
 }
 .contenedor-general-segundaSeccion-info{
-    width: 32%;
+    width: 40%;
 }
 .contenedor-segundo-texto{
     border-bottom: 0.1rem solid #1d1d1d;
@@ -128,8 +131,8 @@ main{
 .contenedor-segundo-texto p{
     font-style: normal;
     font-weight: 300;
-    font-size: 21px;
-    line-height: 140%;
+    font-size: 20px;
+    line-height: 130%;
     color: #1D1D1B;
 }
 .contendor-ficha-tecnica{
@@ -195,9 +198,12 @@ main{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 100%;
+    line-height: 110%;
     text-decoration-line: underline;
     color: #E0FF5F;
+}
+.ver-todos:hover{
+    color: #1D1D1B;
 }
 .contenedor2-icono-grande-titulo{
     display: flex;

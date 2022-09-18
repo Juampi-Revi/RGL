@@ -49,8 +49,8 @@ body{
 .nombre-proyecto{
     font-style: normal;
     font-weight: 300;
-    font-size: 26px;
-    line-height: 90%;
+    font-size: 22px;
+    line-height: 110%;
     color:#3A3737;
 }
 .santaClara{
@@ -68,7 +68,6 @@ body{
     width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
 .icono-flecha-proyectos{
     width: 3.5rem;

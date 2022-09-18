@@ -6,6 +6,13 @@
     width: 100%;
     height: 100vh;
 }
+.logo-nosotros-rgl{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .logo-nosotros-rgl img{
     width: 100%;
 }
@@ -21,7 +28,7 @@
 .parrafo-info-nosotros{
     font-style: normal;
     font-weight: 300;
-    font-size: 42px;
+    font-size: 38px;
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: #FFFFFF;
@@ -49,7 +56,7 @@
 .parrafo-seccion2-nosotros{
     font-style: normal;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.0125em;
     color: #FFFFFF;
@@ -88,6 +95,9 @@
     align-items:center;
     justify-content:center;
 }
+.nombre-icono-arquitecto img{
+    width: 1.5rem;
+}
 .contenedor-nombre-arquitecto p{
     margin-left: 1rem;
     margin-bottom: 0;
@@ -108,12 +118,11 @@
 .titulo-servicios{
     font-style: normal;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 95%;
     color: white;
 }
-.tabla-servicios{
-    padding-left: 47.5rem;
+.contenedor-tabla-servicios img{
     margin-top: 5rem;
 }
 .servicios-enumerados{

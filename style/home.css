@@ -55,12 +55,13 @@ body{
     list-style: none;
     align-items: center;
     justify-content:center;
+    margin-bottom: 0;
 }
 .nav-item{
     margin-right: 7rem;
     font-style: normal;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 90%;
 }
 .nav-item :hover{
@@ -110,26 +111,26 @@ body{
     flex-direction: column;
     justify-content:space-between;
     width: 35%;
-    padding-right: 10rem;
+    padding-right: 7rem;
 }
 .contenedor-proyecto2-info{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     width: 35%;
-    padding-left: 10rem;
+    padding-left: 7rem;
 }
 .proyecto1-titulo{
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 110%;
     color: #fff;
 }
 .proyecto1-subtitulo{
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 110%;
     color:#E0FF5F;
     margin-top: 4rem;
@@ -220,14 +221,14 @@ body{
 .proyecto-miniatura-titulo{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 110%;
     color:white;
 }
 .proyecto-miniatura-subtitulo{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 110%;
     color: #E0FF5F;
 }
@@ -489,6 +490,9 @@ footer{
 
     }
 
+    .active {
+        background:#E0FF5F !important;
+    }
     .carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
 
       transform: translate3d(0,-100%,0);
@@ -561,6 +565,7 @@ footer{
       left:50%;
       transform: translate(-50%,-50%) rotate(90deg);
       z-index:-1;
+      display: none;
     }
     .carousel-control-prev-icon {
       top:5%;
