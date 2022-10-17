@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style/mobile.css"/>
     <link rel="stylesheet" href="./style/home.css"/>
 </head>
 <body >
@@ -32,6 +33,36 @@
                         <a class='secciones-nav' href="./page/contacto.html">Contacto</a>
                     </li>
                 </ul>
+                <nav class="navbar">
+                    <div>
+                      <button class="navbar-toggler icono-navbar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <img src="./assets/icons/iconoNav.png" alt="">
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <div class='contenedor-logo-rgl'>
+                                <a href="./index.html">
+                                    <img src="./assets/home/logoRGLColor.png" alt="logo-rgl-arquitectura">
+                                </a>
+                            </div>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class='nav-item'>
+                                    <a class='secciones-nav' href="./page/nosotros.html">Nosotros</a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a class='secciones-nav' href="./page/proyectos.html">Proyectos</a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a class='secciones-nav' href="./page/contacto.html">Contacto</a>
+                                </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
             </nav>
         </div>
         <div class='contenedor-gif-logo-rgl'>
@@ -49,20 +80,22 @@
             <section class='contenedor-proyecto1-home'>
                 <div class='contenedor-proyecto1-info'>
                     <div class='contenedor-proyecto1-titulo'>
-                        <h1 class='proyecto1-titulo'>Esteban <br>Echeverria <br> Santa Ines</h1>
+                        <h1 class='proyecto1-titulo'>Esteban Echeverria Santa Ines</h1>
                         <h2 class='proyecto1-subtitulo'>Lote 40</h2>
                     </div>
-                    <div class='proyecto1-info'>
-                        <p class='proyecto1-info1 proyecto1info'>Metros Cubiertos: 141.58m2</p>
-                        <div class='proyecto1-info2'>
-                            <p class='proyecto1-info1'>Metros Semicubiertos: 38m2</p>
+                    <div class="contenedor-segunda-parte-seccion-nosotros-info">
+                        <div class='proyecto1-info'>
+                            <p class='proyecto1-info1 proyecto1info'>Metros Cubiertos: 141.58m2</p>
+                            <div class='proyecto1-info2'>
+                                <p class='proyecto1-info1'>Metros Semicubiertos: 38m2</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class='contenedor-redireccionamiento-proyectos'>
-                        <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto1.html">VER PROYECTO</a>
-                        <a href="./page/proyectos/proyecto1.html">
-                            <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto' href=''/>
-                        </a>
+                        <div class='contenedor-redireccionamiento-proyectos'>
+                            <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto1.html">VER PROYECTO</a>
+                            <a href="./page/proyectos/proyecto1.html">
+                                <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto' href=''/>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div id="vertical-carousel" class="carousel slide contenedor-proyecto1-galeria" data-bs-ride="true">
@@ -121,62 +154,72 @@
                 </div>
                     <div class='contenedor-proyecto2-info info-proyecto-2'>
                         <div class='contenedor-proyecto1-titulo '>
-                            <h1 class='proyecto1-titulo'>San Vicente <br>El Principado</h1>
+                            <h1 class='proyecto1-titulo'>San Vicente El Principado</h1>
                             <h2 class='proyecto1-subtitulo'>Lote 37</h2>
                         </div>
-                        <div class='proyecto1-info'>
-                            <p class='proyecto1-info1 proyecto1info'>Metros Cubiertos: 184m2</p>
-                            <div class='proyecto1-info2'>
-                                <p class='proyecto1-info1'>Metros Semicubiertos: 70m2</p>
+                        <div class="contenedor-segunda-parte-seccion-nosotros-info">
+                            <div class='proyecto1-info'>
+                                <p class='proyecto1-info1 proyecto1info'>Metros Cubiertos: 184m2</p>
+                                <div class='proyecto1-info2'>
+                                    <p class='proyecto1-info1'>Metros Semicubiertos: 70m2</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class='contenedor-redireccionamiento-proyectos'>
-                            <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto2.html">VER PROYECTO</a>
-                            <a href="./page/proyectos/proyecto2.html">
-                                <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto'/>
-                            </a>
+                            <div class='contenedor-redireccionamiento-proyectos'>
+                                <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto2.html">VER PROYECTO</a>
+                                <a href="./page/proyectos/proyecto2.html">
+                                    <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto'/>
+                                </a>
+                            </div>
                         </div>
                     </div>
             </section>
             <section class='contenedor-miniatura-proyectos-home'>
                 <section class='miniatura-proyecto'>
-                    <img src="./assets/home/fotoMiniaturaHome_1.png" alt="imagen proyecto">
-                    <div class='contenedor-proyectominiatura-titulo '>
-                        <h1 class='proyecto-miniatura-titulo'>San Vicente <br>Casa San Lucas</h1>
-                        <h2 class='proyecto-miniatura-subtitulo'>Lote 261</h2>
-                    </div>
-                    <div class='proyecto1-info-miniatura'>
-                        <p class='proyecto1-miniatura-info1 proyecto1info'>Metros Cubiertos: 139m2</p>
-                        <div class='proyecto1-info2-miniatura'>
-                            <p class='proyecto1-info1'>Metros Semicubiertos: 49m2  </p>
-                            <p class='proyecto1-info3'>2021</p>
+                    <div class="mini-miniatura">
+                        <img src="./assets/home/fotoMiniaturaHome_1.png" alt="imagen proyecto">
+                        <div class='contenedor-proyectominiatura-titulo '>
+                            <h1 class='proyecto-miniatura-titulo'>San Vicente <br>Casa San Lucas</h1>
+                            <h2 class='proyecto-miniatura-subtitulo'>Lote 261</h2>
                         </div>
                     </div>
-                    <div class='contenedor-redireccionamiento-proyectos'>
-                        <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto3.html">VER PROYECTO</a>
-                        <a href="./page/proyectos/proyecto3.html">
-                            <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto'/>
-                        </a>
+                    <div class="mini-mini-miniatura">
+                        <div class='proyecto1-info-miniatura'>
+                            <p class='proyecto1-miniatura-info1 proyecto1info'>Metros Cubiertos: 139m2</p>
+                            <div class='proyecto1-info2-miniatura'>
+                                <p class='proyecto1-info1'>Metros Semicubiertos: 49m2  </p>
+                                <p class='proyecto1-info3'>2021</p>
+                            </div>
+                        </div>
+                        <div class='contenedor-redireccionamiento-proyectos'>
+                            <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto3.html">VER PROYECTO</a>
+                            <a href="./page/proyectos/proyecto3.html">
+                                <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto'/>
+                            </a>
+                        </div>
                     </div>
                 </section>
                 <section class='miniatura-proyecto'>
-                    <img src="./assets/home/fotoMiniaturaHome_2.png" alt="imagen proyecto">
-                    <div class='contenedor-proyectominiatura-titulo '>
-                        <h1 class='proyecto-miniatura-titulo'>San Vicente <br>Casa San Simon</h1>
-                        <h2 class='proyecto-miniatura-subtitulo'>Lote 61</h2>
-                    </div>
-                    <div class='proyecto1-info-miniatura'>
-                        <p class='proyecto1-miniatura-info1 proyecto1info'>Metros Cubiertos: 214m2</p>
-                        <div class='proyecto1-info2-miniatura'>
-                            <p class='proyecto1-info1'> Metros Semicubiertos: 71m2 </p>
-                            <p class='proyecto1-info3'>2021</p>
+                    <div class="mini-miniatura">
+                        <img src="./assets/home/fotoMiniaturaHome_2.png" alt="imagen proyecto">
+                        <div class='contenedor-proyectominiatura-titulo '>
+                            <h1 class='proyecto-miniatura-titulo'>San Vicente <br>Casa San Simon</h1>
+                            <h2 class='proyecto-miniatura-subtitulo'>Lote 61</h2>
                         </div>
                     </div>
-                    <div class='contenedor-redireccionamiento-proyectos'>
-                        <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto4.html">VER PROYECTO</a>
-                        <a href="./page/proyectos/proyecto4.html">
-                            <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto'/>
-                        </a>
+                    <div class="mini-mini-miniatura">
+                        <div class='proyecto1-info-miniatura'>
+                            <p class='proyecto1-miniatura-info1 proyecto1info'>Metros Cubiertos: 214m2</p>
+                            <div class='proyecto1-info2-miniatura'>
+                                <p class='proyecto1-info1'> Metros Semicubiertos: 71m2 </p>
+                                <p class='proyecto1-info3'>2021</p>
+                            </div>
+                        </div>
+                        <div class='contenedor-redireccionamiento-proyectos'>
+                            <a class='redireccionamiento-proyectos'href="./page/proyectos/proyecto4.html">VER PROYECTO</a>
+                            <a href="./page/proyectos/proyecto4.html">
+                                <img class='icono-redireccionamiento' src='./assets/icons/iconFlechaRedireccion.svg' alt='icono flecha ir a proyecto'/>
+                            </a>
+                        </div>
                     </div>
                 </section>
                 <section class="redireccion-todos-los-proyectos">
@@ -188,17 +231,18 @@
             </section>
         </section>
         <section class="contenedor-seccion-nosotros-home">
-            <div class="contenedor-imagen-nosotros-home">
-                <img src="./assets/home/logoSeccionNosotrosHome.png" alt="">
-            </div>
-            <div class="contenedor-info-nosotros-home">
-                <div class="contenedor-info-nosotros-home-dos">
-                    <h2 class="titulo-nosotros-home">Somos un estudio de <span class="texto-resaltado-nosotros-home">arquitectura </span>abocado al diseño y construcción de proyectos.
-                    </h2>
-                    <div class="contenedor-textos-nosotros-home">
-                        <p class="parrafo-nosotros-home">
-                            Formado por tres arquitectos y amigos con una <span class="texto-resaltado-nosotros-home">fuerte vocación</span> por generar, a través de la arquitectura, espacialidades y sensaciones que formen lugares únicos para cada cliente.
-                        </p>
+            <div class="contenedor-general-toda-la-seccion-nosotros">
+                <div class="contenedor-imagen-nosotros-home">
+                    <img src="./assets/home/logoSeccionNosotrosHome.png" alt="">
+                </div>
+                <div class="contenedor-info-nosotros-home">
+                    <div class="contenedor-info-nosotros-home-dos">
+                        <h2 class="titulo-nosotros-home">Somos un estudio de <span class="texto-resaltado-nosotros-home">arquitectura </span>abocado al diseño y construcción de proyectos.
+                        </h2>
+                        <div class="contenedor-textos-nosotros-home">
+                            <p class="parrafo-nosotros-home">
+                                Formado por tres arquitectos y amigos con una <span class="texto-resaltado-nosotros-home">fuerte vocación</span> por generar, a través de la arquitectura, espacialidades y sensaciones que formen lugares únicos para cada cliente.
+                            </p>
                         <div class="nombres-arquitectos-nosotros-home">
                             <div class="nombres-arquitect">
                                 <img src="./assets/icons/iconoNombres.png" alt="" class="icono-nosotros-home">
@@ -217,6 +261,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
         <section class="contenedor-contacto-home">
             <div class="contenedor-titulo-email-contacto">

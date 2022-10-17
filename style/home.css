@@ -71,13 +71,16 @@ body{
     text-decoration: none;
     color: white;
 }
-.contenedor-gif-logo-rgl img{
+.contenedor-gif-logo-rgl {
+    width: 100%;
     display: flex;
     justify-content:center;
     align-items:center;
-    width: 100%;
     height: 100vh;
+}
+.contenedor-gif-logo-rgl img{
     z-index: 7;
+    width: 90%;
 }
 .contenedor-titulo-saludo-header{
     display: flex;
@@ -113,12 +116,21 @@ body{
     width: 35%;
     padding-right: 7rem;
 }
+.contenedor-segunda-parte-seccion-nosotros-info{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-between;
+}
 .contenedor-proyecto2-info{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     width: 35%;
     padding-left: 7rem;
+}
+.contenedor-proyecto1-titulo{
+    height: 60%;
 }
 .proyecto1-titulo{
     font-style: normal;
@@ -136,8 +148,7 @@ body{
     margin-top: 4rem;
 }
 .proyecto1-info{
-    margin-top:13rem;
-    margin-bottom: 0rem;
+    height: 30%;
 }
 .proyecto1-info1{
     font-style: normal;
@@ -166,7 +177,7 @@ body{
     margin-bottom: 0rem;
 }
 .contenedor-redireccionamiento-proyectos{
-    margin-top: 7rem;
+    height: 10%;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -187,14 +198,12 @@ body{
 }
 .contenedor-proyecto1-galeria{
     width: 65%;
-    height: 60vh;
     display: flex;
     justify-content:center;
     align-items:center;
 }
 .imagenes-carrucel{
     width: 100%;
-    height: 60vh;
 }
 .contenedor-proyecto2-home{
     display: flex;
@@ -207,10 +216,12 @@ body{
 .contenedor-miniatura-proyectos-home{
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 80%;
+    flex-wrap: wrap;
 }
 .miniatura-proyecto{
     margin-right: 2rem;
+    margin-top: 5rem;
 }
 .contenedor-proyectominiatura-titulo {
     display: flex;
@@ -231,6 +242,7 @@ body{
     font-size: 20px;
     line-height: 110%;
     color: #E0FF5F;
+    margin-bottom:0 ;
 }
 .proyecto1-info-miniatura{
     margin-top: 5rem;
@@ -282,8 +294,13 @@ body{
     justify-content: space-between;
     padding-bottom: 5rem;
 }
+.contenedor-general-toda-la-seccion-nosotros{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
 .contenedor-imagen-nosotros-home{
-    width: 50%;
+    width: 40%;
 }
 .contenedor-imagen-nosotros-home img{
     width: 100%;
@@ -291,29 +308,38 @@ body{
 .contenedor-info-nosotros-home{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
-    width: 70%;
-    padding-left: 10rem;
+    width: 60%;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 6rem;
 }
 .contenedor-info-nosotros-home-dos{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
 }
 .titulo-nosotros-home{
     font-style: normal;
     font-weight: 300;
-    font-size: 38px;
+    font-size: 3.8rem;
     line-height: 125%;
     color: white;
-    width: 80%;
+    height: 30%;
 }
 .texto-resaltado-nosotros-home{
     color: #E0FF5F;
 }
 .contenedor-textos-nosotros-home{
-    margin-top:7.5rem;
-    width: 60%;
-    margin-left:11rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 55%;
+    height: 70%;
+    margin-right: 5rem;
 }
 .parrafo-nosotros-home{
     font-style: normal;
@@ -327,8 +353,6 @@ body{
     justify-content:space-between;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-    margin-top:7rem;
-    margin-bottom:15rem;
 }
 .nombres-arquitect{
     display: flex;
@@ -349,6 +373,7 @@ body{
     font-size: 1.6rem;
     line-height: 22px;
     color: #E0FF5F;
+    height: 10%;
 }
 .redireccionamiento-nosotros-home:hover{
     color: white;
@@ -576,4 +601,292 @@ footer{
     .clickable {
       pointer-events:all;
     }
-    
+    .icono-navbar{
+        background: none;
+        border: none;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1.5rem;
+        display: none;
+    }
+    .offcanvas{
+        background-color: #3A3737;
+    }
+    @media (max-width: 1250px){
+        .contenedor-proyecto1-home, .contenedor-proyecto2-home{
+            flex-direction: column;
+        }
+        .contenedor-proyecto2-home{
+            margin: 0;
+        }
+        .contenedor-proyecto1-info, .contenedor-proyecto2-info{
+            width: 100%;
+            order: 3;
+            flex-direction: row;
+            margin-top: 3rem;
+            padding-left: 0;
+            height: 16rem;
+            padding-right: 0;
+        }
+        .contenedor-proyecto1-titulo{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            justify-content: space-between;
+        }
+        .contenedor-redireccionamiento-proyectos, .proyecto1-info{
+            width: 70%;
+        }
+        .contenedor-proyecto1-galeria{
+            order:1;
+        }
+        .contenedor-segunda-parte-seccion-nosotros-info{
+            height: auto;
+            align-items: flex-end;
+            width: 50%;
+        }
+        .miniatura-proyecto{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .mini-miniatura{
+            display: flex;
+            width: 56%;
+        }
+        .contenedor-proyectominiatura-titulo{
+            margin-top: 0;
+            margin-left: 4rem;
+            flex-direction: column;
+        }
+        .mini-mini-miniatura{
+            width: 56%;
+        }
+        .contenedor-redireccionamiento-proyectos{
+            width: 35%;
+            margin-top: 3rem;
+        }
+        .redireccion-todos-los-proyectos{
+            margin-top: 5rem;
+            margin-bottom: 7rem;
+        }
+        .contenedor-textos-nosotros-home{
+            padding-top: 2rem;
+            width: 61%;
+        }
+    }
+    @media (max-width: 1150px){
+        .icono-navbar{
+            display: block;
+        }
+        .contenedor-general-header{
+            height: 100vh;
+        }
+        .contenedor-gif-logo-rgl{
+            display: none;
+        }
+        .contenedor-titulo-saludo-header{
+            height: 100%;
+            justify-content: center;
+        }
+        .contenedor-proyecto1-info, .contenedor-proyecto2-info{
+            flex-direction: column;
+        }
+        .contenedor-segunda-parte-seccion-nosotros-info{
+            margin-top: 4rem;
+            width: 100%;
+        }
+        .contenedor-redireccionamiento-proyectos, .proyecto1-info{
+            width: 100%;
+        }
+        .contenedor-proyecto1-home, .contenedor-proyecto2-home{
+            padding-bottom: 15rem;
+        }
+        .contenedor-titulo-saludo-header img{
+            width: 84vw;
+        }
+        .mini-miniatura{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .mini-mini-miniatura{
+            width: 100%;
+        }
+        .carousel-indicators [data-bs-target]{
+            width: 8px;
+            height: 8px;
+        }
+        .contenedor-imagen-nosotros-home{
+            display: none;
+        }
+        .contenedor-info-nosotros-home{
+            width: 100%;
+        }
+        .titulo-nosotros-home{
+            height: auto;
+        }
+        .redireccionamiento-nosotros-home{
+            padding-top: 5rem;
+        }
+        .contenedor-contacto-home{
+            flex-direction: column;
+        }
+        .email-contacto-home, .contenedor-formulario-contacto-home{
+            margin-top: 5rem;
+        }
+        .contenedor-formulario-contacto-home{
+            width: 100%;
+        }
+        .contenedor-titulo-email-contacto{
+            width: 100%;
+        }
+        .contenedor-info-footer, footer{
+            flex-wrap: wrap;
+        }
+        footer{
+            flex-direction: column;
+        }
+        .contenedor-info-footer{
+            width: 80%;
+            margin-top: 3rem;
+        }
+        .ul-navbar{
+            display: none;
+        }
+    }
+    @media (max-width: 700px){
+        .contenedor-info-footer{
+            width: 93%;
+            margin-left: 5rem;
+        }
+        .icono-wp{
+            margin-left: 77vw;
+            width: 5rem;
+        }
+        .proyecto1-titulo, .proyecto1-subtitulo{
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        .proyecto1-info1{
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 22px;
+        }
+        .redireccionamiento-proyectos{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 19px;
+            margin-right: 3rem;
+        }
+        .contenedor-redireccionamiento-proyectos{
+            justify-content: flex-start;
+        }
+        .contenedor-redireccionamiento-proyectos img{
+            width: 1.7rem;
+        }
+        .proyecto-miniatura-titulo, .proyecto-miniatura-subtitulo{
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        .proyecto1-miniatura-info1, .proyecto1-info2-miniatura, .proyecto1-info3{
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 22px;
+            margin-bottom: 0;
+        }
+        .redireccion-todos-los-proyectos img{
+            width: 190px;
+        }
+        .redireccion-todos-los-proyectos a{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .titulo-nosotros-home{
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        .parrafo-nosotros-home{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .nombre-nosotros-home{
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .contenedor-info-nosotros-home{
+            padding-top: 7rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        .contenedor-textos-nosotros-home {
+            width: 76%;
+            margin-right: 0;
+        }
+        .nombres-arquitectos-nosotros-home{
+            flex-direction: column;
+        }
+        .titulo-contacto-home {
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        .email-contacto-home{
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 140%;
+        }
+        .input-formulario-contacto-home, .input-formulario-contacto-textarea{
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 26px;
+        }
+        .boton-enviar-formulario-home{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 26px;
+        }
+        .icono-wp img{
+            width: 5rem;
+            margin-left: 84vw;
+        }
+        .mini-miniatura img {
+            width: 50%;
+        }
+        .contenedor-proyectominiatura-titulo {
+            width: 50%;
+        }
+        .contenedor-contacto-home{
+            padding: 3rem;
+            padding-left: 8rem;
+        }
+        .contenedor-logo-rgl img{
+            width: 17rem;
+        }
+        .contenedor-logo-rgl{
+            display: flex;
+            align-items: center;
+        }
+    }
+    @media (max-width: 500px){
+        .contenedor-info-footer{
+            margin-left: 0;
+            flex-direction: column;
+        }
+        .contenedor-info1-footer{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
