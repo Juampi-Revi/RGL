@@ -614,6 +614,33 @@ footer{
     }
     .offcanvas{
         background-color: #3A3737;
+        padding: 3rem;
+    }
+    .boton-cerrar{
+        color: #fff;
+        border: none;
+        background: none;
+    }
+    .offcanvas-header{
+        border-bottom: 1px solid white;
+        padding-bottom: 2rem;
+    }
+    .nav-item-hamburguesa{
+        display: flex;
+        padding-top: 3rem;
+        align-items: baseline;
+    }
+    .nav-item-hamburguesa p{
+        color: #E0FF5F;
+        margin-right: 1rem;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .nav-item-hamburguesa a{
+        font-weight: 300;
+        font-size: 34px;
+        line-height: 90%;
     }
     @media (max-width: 1250px){
         .contenedor-proyecto1-home, .contenedor-proyecto2-home{
@@ -888,5 +915,8 @@ footer{
             display: flex;
             justify-content: space-between;
             width: 100%;
+        }
+        .contenedor-contacto-home{
+            padding-left: 5rem;
         }
     }
