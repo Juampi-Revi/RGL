@@ -113,3 +113,66 @@ footer{
 .contenedor-general-proyectos::-webkit-scrollbar{
     width: 0;
 }
+.footer-proyectos-responsive{
+    display: none;
+}
+.navbar-responsive{
+    display: none;
+}
+
+@media (max-width: 1300px){
+    .navbar-responsive{
+        display: block;
+    }
+    .footer-proyectos-responsive{
+        display: block;
+    }
+    .contenedor-informacion-proyecto{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenedor-proyecto{
+        margin-right: 0;
+        width: 60%;
+    }
+    .contenedor-proyecto a{
+        width: 100%;
+    }
+    .img-principal-proyecto{
+        width: 100%;
+    }
+    .contenedor-titulo-proyecto, .contenedor-detalles-proyecto{
+        width: 100%;
+    }
+    .contenedor-general-proyectos{
+        width: 100%;
+        align-items: center;
+        margin:0;
+        margin-top: 8rem;
+        flex-direction: column;
+    }
+}
+@media (max-width: 850px){
+    .contenedor-proyecto{
+        width: 90%;
+        margin-top: 5rem;
+    }
+    .contenedor-general-proyectos{
+        margin-top: 10rem;
+    }
+    .nombre-proyecto, .lote-proyecto{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .icono-flecha-proyectos{
+        width: 3.1rem;
+    }
+    .metros-cubiertos-proyecto, .metros-semicubiertos, .año-proyectos{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
