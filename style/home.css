@@ -23,6 +23,9 @@ body{
 .contenedor-logo-rgl img {
     width: 25rem;
 }
+.navbar-responsive{
+    display: none;
+}
 #navb{
     width: 100%;
     position: fixed;
@@ -708,6 +711,9 @@ footer{
         }
     }
     @media (max-width: 1150px){
+        .navbar-responsive{
+            display: block;
+        }
         .icono-navbar{
             display: block;
         }
