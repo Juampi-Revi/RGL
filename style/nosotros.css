@@ -265,6 +265,13 @@
     .nombres-header-nosotros-contenedor{
         display: block;
     }
+    .nombres-header-nosotros-titulo{
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .nombres-header-nosotros-titulo p{
+        margin-left: 2rem;
+    }
     .parrafo-info-nosotros{
         font-style: normal;
         font-weight: 300;
@@ -288,7 +295,7 @@
         line-height: 140%;
     }
     .nombre-icono-arquitecto img{
-        width: 1.3rem;
+        width: 1rem;
     }
     .titulo-servicios{
         font-style: normal;

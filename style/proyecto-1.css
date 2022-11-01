@@ -277,7 +277,7 @@ main{
 }
 @media (max-width: 850px){
     .iconos-redireccion-vermas img{
-        width: 13.5rem;
+        width: 18.5rem;
     }
     .contenedor-titulo-proyecto h1, .contenedor-titulo-proyecto h2{
         font-style: normal;
@@ -289,7 +289,8 @@ main{
         height: auto;
     }
     .info-proyecto{
-        width: 100%
+        width: 100%;
+        padding: 0.5rem;
     }
     .info-proyecto p{
         font-style: normal;
@@ -340,4 +341,18 @@ main{
         font-size: 12px;
         line-height: 14px;
     }
+}
+@media (max-width: 700px){
+    .imagen-header-proyecto{
+        margin-top: 7rem;
+    }
+    .imagen-header-proyecto-4{
+        margin-top: 5.5rem;
+    }
+}
+@media (max-width: 500px){
+    .iconos-redireccion-vermas img{
+        width: 13.5rem;
+    }
+    
 }

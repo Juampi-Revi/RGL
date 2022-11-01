@@ -15,7 +15,7 @@ body{
 .contenedor-general-proyectos{
     display: flex;
     width: 90%;
-    margin: 3rem 10rem;
+    margin: 13rem 10rem;
     margin-top: 8rem;
     overflow-x: auto;
 }
@@ -29,7 +29,7 @@ body{
     margin-bottom: 1rem;
 }
 .img-principal-proyecto{
-    width: 35vw;
+    width: 38vw;
 }
 .contenedor-informacion-proyecto{
     margin-top: 2rem;
@@ -148,7 +148,7 @@ footer{
         width: 100%;
         align-items: center;
         margin:0;
-        margin-top: 8rem;
+        margin-top: 12rem;
         flex-direction: column;
     }
 }
@@ -156,9 +156,6 @@ footer{
     .contenedor-proyecto{
         width: 90%;
         margin-top: 5rem;
-    }
-    .contenedor-general-proyectos{
-        margin-top: 10rem;
     }
     .nombre-proyecto, .lote-proyecto{
         font-style: normal;
@@ -174,5 +171,10 @@ footer{
         font-weight: 300;
         font-size: 12px;
         line-height: 22px;
+    }
+}
+@media (max-width:700px){
+    .contenedor-general-proyectos{
+        margin-top: 8rem;
     }
 }

@@ -23,6 +23,11 @@ body{
 .contenedor-logo-rgl img {
     width: 25rem;
 }
+.contenedor-logo-rgl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navbar-responsive{
     display: none;
 }
@@ -283,11 +288,13 @@ body{
     font-size: 16px;
     line-height: 22px;
     color: #E0FF5F;
+    margin-top: 5rem;
 }
 .mitad-icono{
     margin-bottom: 27rem;
 }
 .contenedor-seccion-nosotros-home{
+    height: 60vh;
     width: 100%;
     background-image: url('../assets/home/fondoNosotrosHome.png');
     background-position: center;
@@ -411,7 +418,7 @@ body{
     font-size: 25px;
     line-height: 140%;
     color: #fff;
-    margin-top:30rem;
+    margin-top:20rem;
 }
 .contenedor-formulario-contacto-home{
     display: flex;
@@ -443,7 +450,7 @@ body{
     line-height: 26px;
     color: white;
     border-bottom: 1px solid #C2BDB8;
-    margin-top: 15rem;
+    margin-top: 8rem;
     outline: none;
 }
 .sumbit-formulario-contacto-home{
@@ -465,10 +472,10 @@ body{
 footer{
     width: 100%;
     background-color: #75726F;
-    padding: 6rem 2rem;
+    padding: 4rem 1rem;
     display: flex;
     align-items:center;
-    justify-content: space-around
+    justify-content: space-around;
 }
 .logo-footer {
     width: 25rem;
@@ -645,6 +652,24 @@ footer{
         font-size: 34px;
         line-height: 90%;
     }
+    .footer-derechos-diseño{
+        background-color: #3A3737;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-derechos-diseño p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        color: white;
+        margin-bottom: 0;
+        padding: 0.5rem;
+    }
+    .diseño-footer{
+        margin-left: 4rem;
+    }
     @media (max-width: 1250px){
         .contenedor-proyecto1-home, .contenedor-proyecto2-home{
             flex-direction: column;
@@ -715,7 +740,8 @@ footer{
             display: block;
         }
         .icono-navbar{
-            display: block;
+            display: flex;
+            padding-bottom: 0;
         }
         .contenedor-general-header{
             height: 100vh;
@@ -737,8 +763,15 @@ footer{
         .contenedor-redireccionamiento-proyectos, .proyecto1-info{
             width: 100%;
         }
-        .contenedor-proyecto1-home, .contenedor-proyecto2-home{
+        .contenedor-proyecto1-home{
             padding-bottom: 15rem;
+            margin: 7rem 0rem;
+        }
+        .contenedor-proyecto2-home{
+            padding-bottom: 15rem;
+        }
+        .miniatura-proyecto{
+            margin-top: 7rem;
         }
         .contenedor-titulo-saludo-header img{
             width: 84vw;
@@ -771,7 +804,7 @@ footer{
             flex-direction: column;
         }
         .email-contacto-home, .contenedor-formulario-contacto-home{
-            margin-top: 5rem;
+            margin-top: 3rem;
         }
         .contenedor-formulario-contacto-home{
             width: 100%;
@@ -781,6 +814,10 @@ footer{
         }
         .contenedor-info-footer, footer{
             flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .input-formulario-contacto-textarea{
+            margin-top: 10rem;
         }
         footer{
             flex-direction: column;
@@ -794,6 +831,15 @@ footer{
         }
     }
     @media (max-width: 700px){
+        .carousel-inner, .carousel, .carousel-item, .carousel-container{
+            width: 100%;
+        }
+        #navb, #navbb{
+            padding-top: 1rem;
+        }
+        .contenedor-navbar{
+            padding-bottom: 0;
+        }
         .contenedor-info-footer{
             width: 93%;
             margin-left: 5rem;
@@ -809,14 +855,15 @@ footer{
         }
         .proyecto1-info1{
             font-weight: 300;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 22px;
         }
         .redireccionamiento-proyectos{
             font-weight: 500;
-            font-size: 12px;
-            line-height: 19px;
+            font-size: 16px;
+            line-height: 22px;
             margin-right: 3rem;
+            font-style: normal;
         }
         .contenedor-redireccionamiento-proyectos{
             justify-content: flex-start;
@@ -831,7 +878,7 @@ footer{
         }
         .proyecto1-miniatura-info1, .proyecto1-info2-miniatura, .proyecto1-info3{
             font-weight: 300;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 22px;
             margin-bottom: 0;
         }
@@ -840,8 +887,9 @@ footer{
         }
         .redireccion-todos-los-proyectos a{
             font-weight: 500;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 16px;
+            line-height: 22px;
+            font-style: normal;
         }
         .titulo-nosotros-home{
             font-weight: 300;
@@ -855,7 +903,7 @@ footer{
         }
         .nombre-nosotros-home{
             font-weight: 300;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 20px;
         }
         .contenedor-info-nosotros-home{
@@ -887,8 +935,9 @@ footer{
         }
         .boton-enviar-formulario-home{
             font-weight: 500;
-            font-size: 12px;
-            line-height: 26px;
+            font-size: 16px;
+            line-height: 22px;
+            font-style: normal;
         }
         .icono-wp img{
             width: 5rem;
@@ -902,10 +951,11 @@ footer{
         }
         .contenedor-contacto-home{
             padding: 3rem;
+            padding-top: 5rem;
             padding-left: 8rem;
         }
         .contenedor-logo-rgl img{
-            width: 17rem;
+            width: 19rem;
         }
         .contenedor-logo-rgl{
             display: flex;
