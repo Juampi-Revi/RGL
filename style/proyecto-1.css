@@ -246,6 +246,9 @@ main{
 .navbar-responsive{
     display: none;
 }
+.imagen-header-proyecto-4{
+    margin-top: 7rem;
+}
 
 @media (max-width: 1150px){
     .navbar-responsive{
@@ -253,6 +256,9 @@ main{
     }
     .imagen-header-proyecto{
         margin-top: 10.5rem;
+    }
+    .imagen-header-proyecto-4{
+        margin-top: 9rem;
     }
     .seccion-titulo-proyecto{
         flex-direction: column;

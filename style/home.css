@@ -189,7 +189,7 @@ body{
     display: flex;
     justify-content:space-between;
     align-items:center;
-    
+    margin-top: 5rem;
 }
 .redireccionamiento-proyectos{
     font-style: normal;
@@ -294,7 +294,6 @@ body{
     margin-bottom: 27rem;
 }
 .contenedor-seccion-nosotros-home{
-    height: 60vh;
     width: 100%;
     background-image: url('../assets/home/fondoNosotrosHome.png');
     background-position: center;
@@ -357,6 +356,7 @@ body{
     font-size: 1.8rem;
     line-height: 130%;
     color: white;
+    margin-bottom: 7rem;
 }
 .nombres-arquitectos-nosotros-home{
     display: flex;
@@ -501,6 +501,15 @@ footer{
 }
 .contenedor-iconos-footer{
     display: flex;
+}
+.iconos-footer-responsive{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.icono-wp-responsive{
+    display: none;
+    margin-left: 1rem;
 }
 .icono-wp{
     position:fixed;
@@ -819,11 +828,7 @@ footer{
         .input-formulario-contacto-textarea{
             margin-top: 10rem;
         }
-        footer{
-            flex-direction: column;
-        }
         .contenedor-info-footer{
-            width: 80%;
             margin-top: 3rem;
         }
         .ul-navbar{
@@ -961,6 +966,9 @@ footer{
             display: flex;
             align-items: center;
         }
+        .icono-wp-responsive{
+            display: block;
+        }
     }
     @media (max-width: 500px){
         .contenedor-info-footer{
@@ -969,10 +977,17 @@ footer{
         }
         .contenedor-info1-footer{
             display: flex;
-            justify-content: space-between;
+            justify-content: end;
             width: 100%;
+            align-items: center ;
+        }
+        .contenedor-info1-footer p {
+            padding: 0;
+            margin: 0;
+            padding-right: 3rem;
         }
         .contenedor-contacto-home{
             padding-left: 3rem;
         }
+        .
     }
