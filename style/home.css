@@ -849,6 +849,10 @@ footer{
             width: 93%;
             margin-left: 5rem;
         }
+        footer{
+            justify-content: start;
+            padding-left: 4rem;
+        }
         .icono-wp{
             margin-left: 77vw;
             width: 5rem;
@@ -977,7 +981,6 @@ footer{
         }
         .contenedor-info1-footer{
             display: flex;
-            justify-content: end;
             width: 100%;
             align-items: center ;
         }
@@ -989,5 +992,7 @@ footer{
         .contenedor-contacto-home{
             padding-left: 3rem;
         }
-        .
+        .footer-derechos-diseño p{
+            font-size: 11px;
+        }
     }

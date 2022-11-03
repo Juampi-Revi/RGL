@@ -244,6 +244,15 @@
     line-height: 17px;
     color: white;
 }
+.servicio-integral{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 90%;
+}
+.servicio-integral img{
+    width: 80%;
+}
 @media (max-width: 1150px){
     .navbar-responsive{
         display: block;
@@ -253,6 +262,7 @@
     }
     .logo-responsive{
         display: block;
+        margin-top: 10rem;
     }
     .section-contenedor-fotos{
         overflow: auto;
@@ -264,6 +274,7 @@
     }
     .nombres-header-nosotros-contenedor{
         display: block;
+        padding-top: 0;
     }
     .nombres-header-nosotros-titulo{
         justify-content: flex-start;
@@ -322,6 +333,12 @@
     }
 }
 @media (max-width: 650px){
+    .nombres-header-nosotros-contenedor{
+        margin-top: 10rem;
+    }
+    .logo-responsive{
+        margin-top: 0;
+    }
     .section-contenedor-fotos{
         overflow: auto;
         width: 70%;
@@ -345,6 +362,9 @@
     }
     .img-nosotros{
         justify-content: center;
+    }
+    .servicio-integral img{
+        width: 90%;
     }
 
 }
