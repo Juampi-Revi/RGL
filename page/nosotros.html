@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="../style/home.css">
     <link rel="stylesheet" href="../style/nosotros.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('j2ERl6AqQW1Y-9Q2Y')</script>
 </head>
 <body>
     <a href="http://web.whatsapp.com/send?text=Tu mensaje&phone=+549115613-7944&abid=+549115613-7944" target="_blank" class="icono-wp" >
@@ -157,14 +159,14 @@
                 <h1 class="titulo-contacto-home">Si tenés un proyecto <br>en mente, escribinos.</h1>
                 <p class="email-contacto-home">info@rglarquitectos.com.ar </p>
             </div>
-            <form class="contenedor-formulario-contacto-home">
-                <input type="text" placeholder="Nombre y apellido" class="input-formulario-contacto-home">
-                <input type="text" placeholder="Asunto" class="input-formulario-contacto-home">
-                <input type="email" placeholder="Correo electronico" class="input-formulario-contacto-home">
-                <textarea class="input-formulario-contacto-textarea" name="" id="" cols="30" rows="10" placeholder="Contanos acerca de tu proyecto"></textarea>
+            <form id="form" class="contenedor-formulario-contacto-home">
+                <input type="text" name="from_name" id="from_name" placeholder="Nombre y apellido" class="input-formulario-contacto-home">
+                <input type="text" name="message.asunto" id="message.asunto" placeholder="Asunto" class="input-formulario-contacto-home">
+                <input type="email" name="email_id" id="email_id" placeholder="Correo electronico" class="input-formulario-contacto-home">
+                <textarea class="input-formulario-contacto-textarea" name="message.contenido" id="message.contenido" cols="30" rows="10" placeholder="Contanos acerca de tu proyecto"></textarea>
                 <div class="sumbit-formulario-contacto-home">
-                    <button class="boton-enviar-formulario-home" type="submit">ENVIAR</button>
-                    <img src="../assets/icons/iconFlechaRedireccion.svg" alt="">
+                    <button class="boton-enviar-formulario-home" type="submit" id="button" value="Send Email">ENVIAR</button>
+                    <img src="../assets/icono-flecha.svg" alt="">
                 </div>
             </form>
         </section>
@@ -193,5 +195,6 @@
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="../script/script.js"></script>
+    <script src="../script/email.js"></script>
 </body>
 </html>

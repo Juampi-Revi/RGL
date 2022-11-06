@@ -7,16 +7,14 @@ document.getElementById('form')
    btn.value = 'Sending...';
 
    const serviceID = 'default_service';
-   const templateID = 'template_5rf8zch';
+   const templateID = 'template_2bw5say';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Send Email';
-      alert('Email Enviado');
-      location.reload();
+      alert('Mail enviado con exito');
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
-      location.reload();
     });
 });
