@@ -7,7 +7,7 @@ document.getElementById('form')
    btn.value = 'Sending...';
 
    const serviceID = 'default_service';
-   const templateID = 'template_2bw5say';
+   const templateID = 'template_w2y6vys';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
@@ -15,6 +15,6 @@ document.getElementById('form')
       alert('Mail enviado con exito');
     }, (err) => {
       btn.value = 'Send Email';
-      alert(JSON.stringify(err));
+      alert('Mensaje no enviado', err);
     });
 });
